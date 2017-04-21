@@ -10,16 +10,16 @@ Decoding:
 2.	Use the binary tree to decode the encoded binary file to generate a decoded file. 
 
 Command to build the java files:- make
-This command should produce two binary files: encoder and decoder.
+This command should produce two binary files: encoder and decoder(along with other required class files).
 
 To run encoder: 
 <i>java encoder <input_file_name></i>
 
-Running encoder program must produce the output files with exact name "encoded.bin" and "code_table.txt".
+Running encoder program will produce the output files with exact name "encoded.bin" and "code_table.txt".
 
 On the other hand, decoder will take two input files. We will run it using following command:
 
 <i>java decoder <encoded_file_name> <code_table_file_name></i><br>
 In this case: java decoder encoded.bin code_table.txt
 
-Running decoder program must produce output file with exact name "decoded.txt".
+Running decoder program will produce output file with exact name "decoded.txt".
